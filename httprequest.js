@@ -3,8 +3,8 @@ var https = require('https');  //using require function here//
 
 
     var requestOptions = {
-        host: 'themindunleashed.com',
-        path: '/'
+        host: 'sytantris.github.io',
+        path: '/http-examples/step1.html'
     };
 
    https.get(requestOptions,function(response) {
